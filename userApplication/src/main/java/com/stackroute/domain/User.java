@@ -1,12 +1,9 @@
 package com.stackroute.domain;
 
-
-import org.springframework.beans.factory.annotation.Autowired;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-@Entity
+@Entity(name = "User")
 public class User {
     @Id
     private int id;
